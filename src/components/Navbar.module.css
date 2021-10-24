@@ -35,14 +35,14 @@
   cursor: pointer;
 }
 .NameLink {
-  font-weight: bold;
+  font-weight: normal;
 }
 .Number {
-  font-weight: 1000;
+  font-weight: bold;
   margin-right: 1em;
 }
 
-hr {
+.Container > hr {
   position: relative;
   width: 23%;
   border-color: #979797;

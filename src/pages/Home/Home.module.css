@@ -5,9 +5,11 @@
     margin: 0;
     padding: 0;
 }
+
 .Container{
-    height: 100%;
     background-image: url("../../asset/space-tourism-website-main/starter-code/assets/home/background-home-desktop.jpg");
+    height: 100%;
+    padding: 1em;
 }
 
 .Left{
