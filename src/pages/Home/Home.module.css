@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Bellefair&family=Rubik:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.Container{
+    height: 100%;
+    background-image: url("../../asset/space-tourism-website-main/starter-code/assets/home/background-home-desktop.jpg");
+}
+
+.Left{
+    color: white;
+    width: 450px;
+    height: 382px;
+}
+
+.Left > p {
+    color: #D0D6F9;
+    font-size: 18px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.Left > p:first-child {
+    font-size: 28px;
+    color: #D0D6F9;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.Left > h1{
+    font-size: 150px;
+    font-weight: normal;
+    font-family: 'Bellefair', serif;
+}
+
+.ContainerAbout{
+    margin-top: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.Rigth{ 
+    color: black;
+    background-color: white;
+    width: 274px;
+    height: 274px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Bellefair', serif;
+}
