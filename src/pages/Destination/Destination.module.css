@@ -16,6 +16,8 @@
   margin-left: 1em;
 }
 
+
+
 .Row{
     display: flex;
     flex-direction: row;
@@ -41,8 +43,11 @@
   line-height: 19px;
   letter-spacing: 2.7px;
   color: #D0D6F9;
+  cursor: pointer;
 }
-
+.TitleSelect:hover{
+  color:white
+}
 .ForceRow {
   display: flex;
   flex-direction: column;
