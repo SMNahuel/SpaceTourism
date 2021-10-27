@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import Navbar from "../../components/Navbar";
 import style from "./Destination.module.css";
-import Destinations from "../../asset/space-tourism-website-main/starter-code/data.json";
+import Data from "../../asset/space-tourism-website-main/starter-code/data.json";
 import CardDestination from "./cardDestination/cardDestination.js";
 
 const Destination = () => {
-  const [state, setState] = useState(Destinations.destinations[0]);
+  const [state, setState] = useState(Data.destinations[0]);
   return (
     <div className={style.Container}>
       <Navbar />
@@ -16,7 +16,7 @@ const Destination = () => {
         </div>
         <div className={style.ForceRow}>
           <div className={style.ContainerSelect}>
-            {Destinations.destinations.map((destination) => {
+            {Data.destinations.map((destination) => {
               return (
                 <p
                   className={style.TitleSelect}

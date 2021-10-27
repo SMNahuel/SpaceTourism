@@ -1,5 +1,47 @@
-.Container{
-    background-image: url("../../asset/space-tourism-website-main/starter-code/assets/crew/background-crew-desktop.jpg");
-    height: 100vh;
-    padding: 1em;
+.Container {
+  background-image: url("../../asset/space-tourism-website-main/starter-code/assets/crew/background-crew-desktop.jpg");
+  height: 100%;
+  padding: 1em 1em 0em 1em;
+}
+
+.Row {
+  display: flex;
+  flex-direction: row;
+  padding: 2em 0em 0px 5em;
+}
+
+.Number {
+    font-family: Barlow Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 4.725px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+}
+
+.Title {
+    font-family: Barlow Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: 4.725px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-left: 1em;
+}
+.ContainerCrew{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.CrewInfo{
+  padding-top: 154px;
+}
+
+.CrewImage{
 }

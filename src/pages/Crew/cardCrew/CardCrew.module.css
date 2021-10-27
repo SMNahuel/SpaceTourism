@@ -1,0 +1,38 @@
+.CardCrew{
+    width: 488px;
+    height: 54px;
+}
+
+.CrewRole {
+  font-family: Bellefair;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 37px;
+  text-transform: uppercase;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+.CrewName {
+  font-family: Bellefair;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 56px;
+  line-height: 64px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.CrewDescription {
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  /* or 178% */
+
+  color: #d0d6f9;
+}
