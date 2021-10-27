@@ -19,6 +19,7 @@ const Crew = () => {
         </div>
         <div>
           <img
+            loading="lazy"
             className={style.CrewImage}
             src={CrewImages.Douglas}
             alt="crew"

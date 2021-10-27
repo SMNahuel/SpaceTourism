@@ -6,6 +6,7 @@ const CardDestination = ({ destination }) => {
   return (
     <div className={style.Container}>
       <img
+        loading="lazy"
         className={style.ImgDestination}
         src={Images[destination.name]}
         alt="planetDestination"
