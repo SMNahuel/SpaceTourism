@@ -35,7 +35,7 @@
   left: 165px;
   top: 495px;
   border: none;
-  border: 1px solid #979797;
+  border: 1px solid #969696;
   background-color: transparent;
   font-family: Bellefair;
   font-style: normal;
@@ -48,6 +48,10 @@
   border-radius: 50%;
   margin-top: 32px;
   cursor: pointer;
+}
+
+.ButtonTech:hover{
+  border: 1px solid #ffffff;
 }
 
 .ButtonTechActive{
