@@ -1,13 +1,17 @@
 .Container {
   background-image: url("../../asset/space-tourism-website-main/starter-code/assets/crew/background-crew-desktop.jpg");
   height: 100%;
-  padding: 1em 1em 0em 1em;
+  padding-top: 2em;
 }
 
 .Row {
   display: flex;
   flex-direction: row;
-  padding: 2em 0em 0px 5em;
+  padding: 5em 0em 0px 5em;
+  width: 296px;
+  height: 34px;
+  left: 166.5px;
+  top: 212px;
 }
 
 .Number {
@@ -48,5 +52,4 @@
   height: 681px;
   left: 743px;
   top: 246px;
-  
 }

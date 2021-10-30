@@ -16,11 +16,13 @@
   margin-left: 1em;
 }
 
-
-
-.Row{
-    display: flex;
-    flex-direction: row;
+.Row {
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+  height: 34px;
+  left: 166.5px;
+  top: 212px;
 }
 
 .Number {
@@ -42,12 +44,14 @@
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 2.7px;
-  color: #D0D6F9;
+  color: #d0d6f9;
   cursor: pointer;
 }
-.TitleSelect:hover{
-  color:white
+
+.TitleSelect:hover {
+  color: white;
 }
+
 .ForceRow {
   display: flex;
   flex-direction: column;
