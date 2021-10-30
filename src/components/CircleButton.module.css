@@ -1,0 +1,78 @@
+.PointActive {
+  border: none;
+  width: 15px;
+  height: 15px;
+  background: linear-gradient(to right, #ffffff, #ffffff);
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  color: white;
+  font-size: 80px;
+  font-weight: bold;
+  border-radius: 30px;
+}
+
+.PointDisable {
+  border: none;
+  width: 15px;
+  height: 15px;
+  background: linear-gradient(to right, #979797, #979797);
+  border: 1px solid #979797;
+  background-color: transparent;
+  border-radius: 30px;
+  opacity: 0.17;
+  cursor: pointer;
+}
+
+.PointDisable:hover {
+  background: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+.ButtonTech {
+  width: 80px;
+  height: 80px;
+  left: 165px;
+  top: 495px;
+  border: none;
+  border: 1px solid #979797;
+  background-color: transparent;
+  font-family: Bellefair;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 37px;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #ffffff;
+  border-radius: 50%;
+  margin-top: 32px;
+  cursor: pointer;
+}
+
+.ButtonTechActive{
+  width: 80px;
+  height: 80px;
+  left: 165px;
+  top: 495px;
+  border: none;
+  border: 1px solid #979797;
+  background-color: #ffffff;
+  font-family: Bellefair;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 37px;
+  text-align: center;
+  letter-spacing: 2px;
+  color: black;
+  border-radius: 50%;
+  margin-top: 32px;
+  cursor: pointer;
+}
+
+.Container{
+  margin-top: -32px;
+  display: flex;
+  flex-direction: column;
+}
