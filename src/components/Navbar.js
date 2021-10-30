@@ -3,7 +3,7 @@ import style from "./Navbar.module.css";
 import Logo from "../asset/space-tourism-website-main/starter-code/assets/shared/logo.svg";
 
 const Navbar = () => {
-  const [isActive, setIsActive] = useState(window.location.href.split("/").pop());
+  const [isActive] = useState(window.location.href.split("/").pop());
   return (
     <>
       <div className={style.Container}>
