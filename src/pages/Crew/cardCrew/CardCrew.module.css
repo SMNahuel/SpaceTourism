@@ -1,6 +1,8 @@
-.CardCrew{
-    width: 488px;
-    height: 54px;
+.CardCrew {
+  width: 488px;
+  height: 54px;
+  display: flex;
+  flex-direction: column;
 }
 
 .CrewRole {
@@ -22,8 +24,8 @@
   font-size: 56px;
   line-height: 64px;
   text-transform: uppercase;
-
   color: #ffffff;
+  width: 614px;
 }
 
 .CrewDescription {
@@ -35,4 +37,28 @@
   /* or 178% */
 
   color: #d0d6f9;
+}
+
+.Point {
+  border: none;
+  width: 15px;
+  height: 15px;
+  background: linear-gradient(to right, #ffffff, #ffffff);
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  color: white;
+  font-size: 80px;
+  font-weight: bold;
+  border-radius: 30px;
+}
+
+.ContainerButton {
+  position: absolute;
+  width: 132px;
+  height: 15px;
+  top: 650px;
+  display: flex;
+  width: 100px;
+  justify-content: space-around;
+  align-items: center;
 }

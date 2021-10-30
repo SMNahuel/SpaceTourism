@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Bellefair&family=Rubik:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Bellefair&family=Rubik:wght@300&display=swap");
 
 .Container {
   display: flex;
@@ -8,7 +8,7 @@
   text-align: center;
   color: white;
   font-size: 16px;
-  font-family: 'Bellefair', serif;
+  font-family: "Bellefair", serif;
 }
 
 .ContainerLink {
@@ -29,14 +29,10 @@
   margin-left: 2em;
 }
 
-.Link {
-  display: flex;
-  flex-direction: row;
-  cursor: pointer;
-}
 .NameLink {
   font-weight: normal;
 }
+
 .Number {
   font-weight: bold;
   margin-right: 1em;
@@ -48,4 +44,29 @@
   border-color: #979797;
   margin-right: -3em;
   z-index: 2;
+}
+
+.Link {
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  height: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.LinkSelect {
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  height: 95%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 3px solid #ffffff;
+}
+
+.Link:hover {
+  border-bottom: 3px solid #979797;
 }

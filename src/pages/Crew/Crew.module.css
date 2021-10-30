@@ -11,37 +11,42 @@
 }
 
 .Number {
-    font-family: Barlow Condensed;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 28px;
-    line-height: 34px;
-    letter-spacing: 4.725px;
-    color: #FFFFFF;
-    mix-blend-mode: normal;
-    opacity: 0.25;
+  font-family: Barlow Condensed;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 34px;
+  letter-spacing: 4.725px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.25;
 }
 
 .Title {
-    font-family: Barlow Condensed;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 28px;
-    line-height: 34px;
-    letter-spacing: 4.725px;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    margin-left: 1em;
+  font-family: Barlow Condensed;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 34px;
+  letter-spacing: 4.725px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-left: 1em;
 }
-.ContainerCrew{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+.ContainerCrew {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
-.CrewInfo{
+.CrewInfo {
   padding-top: 154px;
 }
 
-.CrewImage{
+.CrewImage {
+  width: 554.39px;
+  height: 681px;
+  left: 743px;
+  top: 246px;
+  
 }

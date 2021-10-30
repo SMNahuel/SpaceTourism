@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import style from "./Crew.module.css";
 import Navbar from "../../components/Navbar";
 import Data from "../../asset/space-tourism-website-main/starter-code/data.json";
@@ -6,6 +6,11 @@ import CardCrew from "./cardCrew/CardCrew";
 import { CrewImages } from "../../enum/Crew.js";
 
 const Crew = () => {
+  const [state, setState] = useState("Douglas");
+
+  const SelectImage = (name) => {
+    setState(name);
+  }
   return (
     <div className={style.Container}>
       <Navbar />
@@ -15,13 +20,13 @@ const Crew = () => {
       </div>
       <div className={style.ContainerCrew}>
         <div className={style.CrewInfo}>
-          <CardCrew data={Data.crew[0]} />
+          <CardCrew data={Data.crew[0]} SelectImage={SelectImage}/>
         </div>
         <div>
           <img
             loading="lazy"
             className={style.CrewImage}
-            src={CrewImages.Douglas}
+            src={CrewImages[state]}
             alt="crew"
           />
         </div>
