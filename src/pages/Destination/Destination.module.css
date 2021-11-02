@@ -72,3 +72,9 @@
   align-items: flex-start;
   justify-content: flex-end;
 }
+
+
+/*Responsive Mobile */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  
+}

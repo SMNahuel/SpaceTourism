@@ -1,58 +1,123 @@
-@import url('https://fonts.googleapis.com/css2?family=Bellefair&family=Rubik:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Bellefair&family=Rubik:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bellefair&family=Rubik:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Bellefair&family=Rubik:wght@300&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.Container{
-    background-image: url("../../asset/space-tourism-website-main/starter-code/assets/home/background-home-desktop.jpg");
-    height: 100%;
-    padding-top: 2em;
+.Container {
+  background-image: url("../../asset/space-tourism-website-main/starter-code/assets/home/background-home-desktop.jpg");
+  height: 100%;
+  padding-top: 2em;
 }
 
-.Left{
-    color: white;
-    width: 450px;
-    height: 382px;
+.Left {
+  color: white;
+  width: 450px;
+  height: 382px;
 }
 
 .Left > p {
-    color: #D0D6F9;
-    font-size: 18px;
-    font-family: 'Barlow Condensed', sans-serif;
+  color: #d0d6f9;
+  font-size: 18px;
+  font-family: "Barlow Condensed", sans-serif;
 }
 
 .Left > p:first-child {
-    font-size: 28px;
-    color: #D0D6F9;
-    font-family: 'Barlow Condensed', sans-serif;
+  font-size: 28px;
+  color: #d0d6f9;
+  font-family: "Barlow Condensed", sans-serif;
 }
 
-.Left > h1{
-    font-size: 150px;
-    font-weight: normal;
-    font-family: 'Bellefair', serif;
+.Left > h1 {
+  font-size: 150px;
+  font-weight: normal;
+  font-family: "Bellefair", serif;
 }
 
-.ContainerAbout{
-    margin-top: 20%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+.ContainerAbout {
+  margin-top: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
-.Rigth{ 
-    color: black;
-    background-color: white;
-    width: 274px;
-    height: 274px;
-    border-radius: 50%;
-    display: flex;
+.EffectAmazing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 450px;
+  height: 450px;
+  left: 913px;
+  top: 407px;
+  -webkit-transition: all 1.2s 0s linear;
+  -moz-transition: all 1.2s 0s linear;
+  -o-transition: all 1.2s 0s linear;
+  transition: all 1.2s 0s linear;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.EffectAmazing:hover {
+  background: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.1;
+}
+
+.Rigth {
+  display: flex;
+  justify-content: center;
+  color: black;
+  background-color: white !important;
+  width: 274px;
+  height: 274px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 32px;
+  font-family: "Bellefair", serif;
+  cursor: pointer;
+  z-index: 2;
+}
+
+
+/*Responsive Mobile */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  
+  .Container{
+    background-image: url("../../asset/space-tourism-website-main/starter-code/assets/home/background-home-mobile.jpg");
+    height: 100vh;
+  }
+  
+  .ContainerAbout{
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+  .Left{
+    width: 327px;
+    height: 276px;
     text-align: center;
-    font-size: 32px;
-    font-family: 'Bellefair', serif;
+    padding: 0em 0em 0em 0em;
+  }
+  .Left > h1 {
+    font-size: 80px;
+  }
+  .Left > p {
+    font-size: 16px;
+  }
+
+  .EffectAmazing{
+    width: 150px;
+    height: 150px;
+  }
+
+  .Rigth{
+    width: 150px;
+    height: 150px;
+  }
 }

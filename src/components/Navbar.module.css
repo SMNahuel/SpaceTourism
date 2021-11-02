@@ -70,3 +70,13 @@
 .Link:hover {
   border-bottom: 3px solid #979797;
 }
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  .ContainerLink{
+    display: none;
+  }
+
+  .Container > hr {
+    display: none;
+  }
+}
