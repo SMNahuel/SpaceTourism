@@ -84,21 +84,22 @@
   z-index: 2;
 }
 
+/*Responsive Mobile iPhone */
 
-/*Responsive Mobile */
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
-  
-  .Container{
+  .Container {
     background-image: url("../../asset/space-tourism-website-main/starter-code/assets/home/background-home-mobile.jpg");
     height: 100vh;
   }
-  
-  .ContainerAbout{
+
+  .ContainerAbout {
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  .Left{
+  .Left {
     width: 327px;
     height: 276px;
     text-align: center;
@@ -111,12 +112,90 @@
     font-size: 16px;
   }
 
-  .EffectAmazing{
+  .EffectAmazing {
     width: 150px;
     height: 150px;
   }
 
-  .Rigth{
+  .Rigth {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+  .Container {
+    background-image: url("../../asset/space-tourism-website-main/starter-code/assets/home/background-home-mobile.jpg");
+    height: 100vh;
+  }
+
+  .ContainerAbout {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Left {
+    width: 327px;
+    height: 276px;
+    text-align: center;
+    padding: 0em 0em 0em 0em;
+  }
+  .Left > h1 {
+    font-size: 80px;
+  }
+  .Left > p {
+    font-size: 16px;
+  }
+
+  .EffectAmazing {
+    width: 150px;
+    height: 150px;
+  }
+
+  .Rigth {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+/* ----------- iPhone X ----------- */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+  .Container {
+    background-image: url("../../asset/space-tourism-website-main/starter-code/assets/home/background-home-mobile.jpg");
+    height: auto;
+    background-size: cover;
+  }
+
+  .ContainerAbout {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: 0;
+  }
+  .Left {
+    width: 327px;
+    height: 276px;
+    text-align: center;
+    padding: 0em 0em 0em 0em;
+    margin-bottom: 8em;
+  }
+  .Left > h1 {
+    font-size: 80px;
+  }
+  .Left > p {
+    font-size: 16px;
+  }
+
+  .EffectAmazing {
+    width: 150px;
+    height: 150px;
+  }
+
+  .Rigth {
     width: 150px;
     height: 150px;
   }
