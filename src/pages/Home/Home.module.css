@@ -200,3 +200,45 @@
     height: 150px;
   }
 }
+
+
+/* ----------- J6 ----------- */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) {
+  .Container {
+    background-image: url("../../asset/space-tourism-website-main/starter-code/assets/home/background-home-mobile.jpg");
+    height: auto;
+    background-size: cover;
+  }
+
+  .ContainerAbout {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: 0;
+  }
+  .Left {
+    width: 327px;
+    height: 276px;
+    text-align: center;
+    padding: 0em 0em 0em 0em;
+    margin-bottom: 8em;
+  }
+  .Left > h1 {
+    font-size: 80px;
+  }
+  .Left > p {
+    font-size: 16px;
+  }
+
+  .EffectAmazing {
+    width: 150px;
+    height: 150px;
+  }
+
+  .Rigth {
+    width: 150px;
+    height: 150px;
+  }
+}
