@@ -24,8 +24,6 @@
 }
 .Title {
   font-family: Bellefair;
-  font-style: normal;
-  font-weight: normal;
   font-size: 100px;
   height: 115px;
 }
@@ -38,8 +36,6 @@
 
 .TitleDistance {
   font-family: Barlow Condensed;
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 17px;
   letter-spacing: 2.3625px;
@@ -50,8 +46,6 @@
 .TitleInfo {
   margin-top: 1em;
   font-family: Bellefair;
-  font-style: normal;
-  font-weight: normal;
   font-size: 28px;
   line-height: 32px;
   text-transform: uppercase;
@@ -62,8 +56,6 @@
   width: 444px;
   height: 128px;
   font-family: Barlow;
-  font-style: normal;
-  font-weight: normal;
   font-size: 18px;
   line-height: 32px;
   color: #d0d6f9;
@@ -84,9 +76,6 @@
   }
 
   .Title {
-    font-family: Bellefair;
-    font-style: normal;
-    font-weight: normal;
     font-size: 56px;
     line-height: 64px;
     text-align: center;
@@ -94,9 +83,6 @@
   }
 
   .Description {
-    font-family: Barlow;
-    font-style: normal;
-    font-weight: normal;
     font-size: 15px;
     line-height: 25px;
     width: 100%;
@@ -121,9 +107,6 @@
   }
 
   .TitleDistance {
-    font-family: Barlow Condensed;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 17px;
     text-align: center;
@@ -132,9 +115,6 @@
   }
 
   .TitleInfo {
-    font-family: Bellefair;
-    font-style: normal;
-    font-weight: normal;
     font-size: 28px;
     line-height: 32px;
     text-align: center;

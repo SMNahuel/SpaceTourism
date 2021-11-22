@@ -6,8 +6,6 @@
 
 .Title {
   font-family: Barlow Condensed;
-  font-style: normal;
-  font-weight: normal;
   font-size: 28px;
   line-height: 34px;
   letter-spacing: 4.725px;
@@ -25,7 +23,6 @@
 
 .Number {
   font-family: Barlow Condensed;
-  font-style: normal;
   font-weight: bold;
   font-size: 28px;
   line-height: 34px;
@@ -37,8 +34,6 @@
 .TitleSelect {
   margin: 0px 0px 0px 20px;
   font-family: Barlow Condensed;
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 2.7px;
@@ -85,7 +80,6 @@
 
   .Number {
     font-family: Barlow Condensed;
-    font-style: normal;
     font-weight: bold;
     font-size: 16px;
     line-height: 19px;
@@ -94,12 +88,9 @@
 
   .Title {
     font-family: Barlow Condensed;
-    font-style: normal;
-    font-weight: normal;
     font-size: 16px;
     line-height: 19px;
     letter-spacing: 2.7px;
-    text-transform: uppercase;
   }
 
   .ForceRow {

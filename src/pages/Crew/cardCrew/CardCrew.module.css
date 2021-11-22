@@ -7,8 +7,6 @@
 
 .CrewRole {
   font-family: Bellefair;
-  font-style: normal;
-  font-weight: normal;
   font-size: 32px;
   line-height: 37px;
   text-transform: uppercase;
@@ -19,8 +17,6 @@
 
 .CrewName {
   font-family: Bellefair;
-  font-style: normal;
-  font-weight: normal;
   font-size: 56px;
   line-height: 64px;
   text-transform: uppercase;
@@ -30,12 +26,9 @@
 
 .CrewDescription {
   font-family: Barlow;
-  font-style: normal;
-  font-weight: normal;
   font-size: 18px;
   line-height: 32px;
   /* or 178% */
-
   color: #d0d6f9;
 }
 
