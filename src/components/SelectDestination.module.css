@@ -1,0 +1,31 @@
+.ContainerSelect{
+  display: none;
+}
+
+@media only screen and (min-device-width: 325px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  .ContainerSelect {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .TitleSelect {
+    margin: 0px 0px 0px 20px;
+    font-family: Barlow Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    color: #d0d6f9;
+    cursor: pointer;
+  }
+  
+  .TitleSelect:hover {
+    color: white;
+    border-bottom: 2px solid white;
+  }
+  
+}

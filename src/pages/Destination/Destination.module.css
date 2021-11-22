@@ -21,8 +21,6 @@
   flex-direction: row;
   width: 400px;
   height: 34px;
-  left: 166.5px;
-  top: 212px;
 }
 
 .Number {
@@ -50,6 +48,7 @@
 
 .TitleSelect:hover {
   color: white;
+  border-bottom: 2px solid white;
 }
 
 .ForceRow {
@@ -73,8 +72,46 @@
   justify-content: flex-end;
 }
 
-
 /*Responsive Mobile */
-@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
-  
+@media only screen and (min-device-width: 325px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  .Container {
+    background-image: url("../../asset/space-tourism-website-main/starter-code/assets/destination/background-destination-mobile.jpg");
+  }
+
+  .Row {
+    width: 221px;
+    height: 19px;
+  }
+
+  .Number {
+    font-family: Barlow Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+  }
+
+  .Title {
+    font-family: Barlow Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    text-transform: uppercase;
+  }
+
+  .ForceRow {
+    margin-top: 29px;
+    justify-content: center;
+  }
+  .ContainerSelect {
+    display: none;
+  }
+  .ContainerAbout{
+    padding: 0em;
+    align-items: center;
+    margin-top: 34px;
+  }
 }

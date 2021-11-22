@@ -49,8 +49,49 @@
 }
 
 .CrewImage {
-  width: 554.39px;
+  width: auto;
   height: 681px;
   left: 743px;
   top: 246px;
+}
+
+@media only screen and (min-device-width: 325px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  .Container{
+    background-image: url("../../asset/space-tourism-website-main/starter-code/assets/crew/background-crew-mobile.jpg");;
+    width: 375px;
+    height: 710px;
+  }
+  .Row{
+    width: 166px;
+    height: 19px;
+  }
+  .Number{
+    font-family: Barlow Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+  }
+
+  .Title{
+    font-family: Barlow Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    text-transform: uppercase;
+  }
+  .CrewInfo{
+    padding-top: 0px;
+  }
+  .ContainerCrew{
+    flex-direction: column-reverse;
+  }
+
+  .CrewImage{
+    width: 327px;
+    height: 223px;
+  }
 }

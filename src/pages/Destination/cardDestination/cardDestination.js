@@ -1,8 +1,10 @@
 import React from "react";
 import style from "./cardDestination.module.css";
 import { Images } from "../../../enum/Destination.js";
+import SelectDestinationComponent from "../../../components/SelectDestination";
 
 const CardDestination = ({ destination }) => {
+
   return (
     <div className={style.Container}>
       <img
@@ -11,6 +13,7 @@ const CardDestination = ({ destination }) => {
         src={Images[destination.name]}
         alt="planetDestination"
       />
+      <SelectDestinationComponent />
       <div className={style.Info}>
         <h1 className={style.Title}>{destination.name.toUpperCase()}</h1>
         <p className={style.Description}>{destination.description}</p>

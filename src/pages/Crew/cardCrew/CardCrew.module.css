@@ -62,3 +62,25 @@
   justify-content: space-around;
   align-items: center;
 }
+
+@media only screen and (min-device-width: 325px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  .CrewRole {
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+  }
+  .CrewName {
+    width: auto;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+  }
+  .CardCrew {
+    width: auto;
+    height: auto;
+  }
+  .CrewDescription {
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
