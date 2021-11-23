@@ -50,37 +50,68 @@
   top: 246px;
 }
 
+.Line {
+  display: none;
+}
+
 @media only screen and (min-device-width: 325px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
-  .Container{
-    background-image: url("../../asset/space-tourism-website-main/starter-code/assets/crew/background-crew-mobile.jpg");;
-    width: 375px;
-    height: 710px;
+  .Container {
+    background-image: url("../../asset/space-tourism-website-main/starter-code/assets/crew/background-crew-mobile.jpg");
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
   }
-  .Row{
-    width: 166px;
+
+  .Row {
     height: 19px;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
+    width: auto;
   }
-  .Number{
+
+  .Number {
     font-weight: bold;
     font-size: 16px;
     line-height: 19px;
     letter-spacing: 2.7px;
   }
 
-  .Title{
+  .Title {
     font-size: 16px;
     line-height: 19px;
     letter-spacing: 2.7px;
   }
-  .CrewInfo{
+
+  .CrewInfo {
     padding-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-  .ContainerCrew{
+
+  .ContainerCrew {
     flex-direction: column-reverse;
   }
 
-  .CrewImage{
-    width: 327px;
+  .ContainerImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    flex-direction: column;
+  }
+
+  .CrewImage {
     height: 223px;
+  }
+
+  .Line {
+    display: block;
+    border-color: #979797;
+    width: 327px;
   }
 }

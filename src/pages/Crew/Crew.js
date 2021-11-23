@@ -22,13 +22,14 @@ const Crew = () => {
         <div className={style.CrewInfo}>
           <CardCrew data={Data.crew[0]} SelectImage={SelectImage}/>
         </div>
-        <div>
+        <div className={style.ContainerImg}>
           <img
             loading="lazy"
             className={style.CrewImage}
             src={CrewImages[state]}
             alt="crew"
           />
+          <hr className={style.Line} />
         </div>
       </div>
     </div>
