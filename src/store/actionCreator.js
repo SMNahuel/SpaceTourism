@@ -5,3 +5,10 @@ export const SelectDestination = (destination) => {
   };
 };
 
+export const SelectCrew = (crew) => {
+  return {
+    type: "SELECT_CREW",
+    payload: crew,
+  };
+};
+
