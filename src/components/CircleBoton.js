@@ -1,7 +1,5 @@
 import React from "react";
 import style from "./CircleButton.module.css";
-import { useDispatch } from "react-redux";
-import { SelectCrew } from "../store/actionCreator";
 
 const CircleButon = ({ active, Select, index }) => {
   return (
